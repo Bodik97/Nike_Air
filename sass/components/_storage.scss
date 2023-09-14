@@ -1,0 +1,18 @@
+.storage {
+  min-height: 665px;
+  background: url('../../img/bg/Section\(3\).png');
+  &__img {
+    position: relative;
+    padding: 45px 337px 0px  159px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__vector {
+    position: absolute;
+    // padding: 216px 90px 54px 615px;
+    &__gruop-eclipse {
+
+    }
+  }
+}

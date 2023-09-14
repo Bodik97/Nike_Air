@@ -1,0 +1,47 @@
+.advantage {
+  height: 606px;
+  background: url('../../img/bg/Group\ 8\ 1\ \(1\).png');
+  &__group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 165px 61px 138px;
+  }
+  &__object {
+    display: flex;
+    justify-content: space-between;
+
+    &_svg {
+      padding-left: 130px;
+    }
+    &_title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+      margin: -40px 0px 0px -40px;
+    }
+    &_title_number {
+      color: #FFF;
+      font-family: Salsa;
+      font-size: 170px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    &_title_text {
+      padding-left: 22px;
+      color: #FFF;
+      font-family: Playfair Display;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    &_icon {
+      position: relative;
+      margin: -290px 0px 0px -40px;
+    }
+  }
+}
+

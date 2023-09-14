@@ -1,0 +1,17 @@
+$main-color: #8e32c6;
+
+body {
+  font-family: 'Roboto', 'PlayfairDisplay', 'Salsa';
+  background-color: #f0f0f0;
+  color: $main-color;
+}
+
+@import "./utils/bottons";
+@import "./utils/font";
+@import "./utils/mixins";
+@import "./utils/variables";
+
+@import "./components/header";
+@import "./components/intro";
+@import "./components/advantage";
+@import "./components/storage";
