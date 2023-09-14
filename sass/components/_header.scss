@@ -1,12 +1,18 @@
 
 
 .header {
-  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
   height: 90px;
-  justify-content: space-between;
-  align-items: center;
   padding: 30px;
   background: url('../img/bg/header.png') center (center / cover) no-repeat;
+  z-index: 1500;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   &__logo {
     width: 100px;
     height: 60px;
@@ -16,6 +22,7 @@
     }
   }
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
