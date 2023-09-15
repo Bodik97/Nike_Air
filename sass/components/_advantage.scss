@@ -1,18 +1,12 @@
 .advantage {
   height: 606px;
-  background: url('../img/bg/Group_8.png');
-  &__group {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 55px 165px 61px 138px;
-  }
+  background: url('../img/bg/Group_8.png') center / cover no-repeat;
+  padding: 103px 0 115px 0;
   &__object {
     display: flex;
     justify-content: space-between;
-
     &_svg {
-      padding-left: 130px;
+
     }
     &_title {
       display: flex;
