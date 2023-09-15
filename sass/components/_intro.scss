@@ -3,11 +3,9 @@
   margin-top: 90px;
   background: url('../img/bg/bg.png') center / cover no-repeat;
   &__info {
-    position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
   }
   &__logo {
     position: relative;
@@ -66,11 +64,8 @@
     }
   }
   &__img-sneaker {
-    position: relative;
-    // margin-left: 441px;
-    // margin-top: -20px;
-    display: flex;
-    justify-content: center;
-    align-items: end;
+    position: absolute;
+    right: 0;
+    
   }
 }
