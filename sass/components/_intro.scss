@@ -1,23 +1,25 @@
 .intro {
   min-height: 948px;
+  margin-top: 90px;
   background: url('../img/bg/bg.png') center / cover no-repeat;
   &__info {
+    position: absolute;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 
   }
   &__logo {
-    position: relative;
+    position: absolute;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     width: 160px;
     height: 120px;
     flex-shrink: 0;
-    padding-left: 175px;
+
     &_name {
-      position: absolute;
-      padding: 105px 0px 0px 15px;
+      position: relative;
+      padding-bottom: 100px;
       color: #FFF;
       font-family: PT Serif;
       font-size: 48px;
@@ -29,13 +31,11 @@
   }
 
   &__wrapper {
-    position: absolute;
-    display: block;
-    align-items: center;
-    align-content: flex-start;
+    position: relative;
+    display: flex;
+    flex-direction: column;
     &_title {
       margin: 0 auto;
-      padding: 0px 0px 0px 157px;
       color: #FFF;
       font-family: Playfair Display;
       font-size: 144px;
@@ -44,8 +44,6 @@
       line-height: normal;
     }
     &_subtitle {
-      margin: -27px auto;
-      padding: 0px 0px 0px 165px;
       color: #FFF;
       font-family: Playfair Display;
       font-size: 72px;
@@ -55,7 +53,7 @@
     }
     &_text {
       display: block;
-      padding: 12px 0px 0px 165px;
+
       color: #FFF;
       font-family: Roboto;
       font-size: 18px;
@@ -66,7 +64,10 @@
   }
   &__img-sneaker {
     position: relative;
-    margin-left: 441px;
-    margin-top: -20px;
+    // margin-left: 441px;
+    // margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
   }
 }
