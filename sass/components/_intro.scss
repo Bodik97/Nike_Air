@@ -2,6 +2,7 @@
   min-height: 948px;
   margin-top: 90px;
   background: url('../img/bg/bg.png') center / cover no-repeat;
+  padding: 94px 0 183px 0;
   &__info {
     display: flex;
     justify-content: space-between;
@@ -45,6 +46,7 @@
       line-height: normal;
     }
     &_subtitle {
+      margin: 0;
       color: #FFF;
       font-family: Playfair Display;
       font-size: 72px;
@@ -54,6 +56,7 @@
     }
     &_text {
       display: block;
+      margin-top: 12px;
 
       color: #FFF;
       font-family: Roboto;
@@ -66,6 +69,6 @@
   &__img-sneaker {
     position: absolute;
     right: 0;
-    
+
   }
 }
