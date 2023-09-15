@@ -10,23 +10,26 @@
 
   }
   &__logo {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
+    position: relative;
+    display: block;
     width: 160px;
     height: 120px;
-    flex-shrink: 0;
-
+    color: #FFF;
+    font-family: PT Serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+      span {
+        position: absolute;
+        bottom: -25px;
+        right: 32px;
+      }
     &_name {
       position: relative;
       padding-bottom: 100px;
-      color: #FFF;
-      font-family: PT Serif;
-      font-size: 48px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      text-decoration: none;
+
     }
   }
 
