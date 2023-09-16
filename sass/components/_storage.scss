@@ -1,18 +1,26 @@
 .storage {
   min-height: 665px;
   background: url('../img/bg/Section_3.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
   &__img {
     position: relative;
-    padding: 45px 337px 0px  159px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    &_photo {
+      object-fit: cover;
+    }
   }
   &__vector {
     position: absolute;
-    // padding: 216px 90px 54px 615px;
-    &__gruop-eclipse {
-
-    }
+    width: 100px;
+    height: 100px;
+    left: 600px;
+    top: 230px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+    cursor: zoom-in;
   }
 }
