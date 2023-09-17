@@ -16,11 +16,14 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 600px;
-    top: 230px;
-    border: 2px solid white;
-    border-radius: 50%;
-    transition: transform 0.3s ease-in-out;
-    cursor: zoom-in;
+    top: 216px;
+    right: 90px;
+    bottom: 54px;
+    left: 615px;
+    &_svg {
+      position: absolute;
+      top: -160px;
+      left: 115px;
+    }
   }
 }
