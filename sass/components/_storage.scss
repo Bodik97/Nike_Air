@@ -1,6 +1,6 @@
 .storage {
   min-height: 665px;
-  background: url('../img/bg/Section_3.png');
+  background: url("../img/bg/Section_3.png");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,19 +8,23 @@
   overflow: hidden;
   &__img {
     position: relative;
+    transition: transform 0.3s ease;
     &_photo {
       object-fit: cover;
     }
   }
   &__vector {
+    background: url(../../img/section3/scale2.png) center/contain no-repeat;
+    width: 130px;
+    height: 130px;
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 600px;
-    top: 230px;
-    border: 2px solid white;
-    border-radius: 50%;
-    transition: transform 0.3s ease-in-out;
-    cursor: zoom-in;
+    right: 20%;
+    bottom: 20%;
+    right: 33%;
+    bottom: 32%;
+    z-index: 2;
+  }
+  .container {
+    position: relative;
   }
 }
