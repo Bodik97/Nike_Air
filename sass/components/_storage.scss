@@ -5,25 +5,50 @@
   justify-content: center;
   align-items: center;
   margin: 0;
-  overflow: hidden;
-  &__img {
+  &__group {
     position: relative;
-    &_photo {
-      object-fit: cover;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__img {
+    position: absolute;
+    
+    // &_photo {
+    //   object-fit: cover;
+    // }
   }
   &__vector {
-    position: absolute;
+    position: abe;
+    bottom: 0;
+    right: 0;
     width: 100px;
     height: 100px;
-    top: 216px;
-    right: 90px;
-    bottom: 54px;
-    left: 615px;
+    z-index: 1;
+    // top: 2px;
+    // right: 90px;
+    // bottom: 54px;
+    // left: 615px;
     &_svg {
       position: absolute;
       top: -160px;
       left: 115px;
+    }
+    &_img {
+      width: 100%;
+    }
+    &_title {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: -70px;
+      right: 15px;
+      color: #FFF;
+      font-family: Playfair Display;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
     }
   }
 }

@@ -1,0 +1,82 @@
+.reviews {
+  min-height: 532px;
+  background: url("../../img/bg/Group22.png");
+  &__title {
+    margin: 0;
+    padding: 40px;
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__content {
+    display: flex;
+    justify-content: flex-end;
+
+  }
+  &__wrapper{
+    display: flex;
+    gap: 93px;
+  }
+  &__box {
+    width: 260px;
+    background:  linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    border-radius: 15px;
+    box-shadow:0px 9px 9px rgba(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100% 0.5),0px 9px 9px rgba(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100% 0.5),
+
+  }
+  &__box-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px 15px;
+
+    &_text {
+      color: #FFF;
+      font-family: Roboto;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    &_numeric {
+      color: #D8D8D8;
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  &__box-customer {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    padding: 30px 15px;
+    &_info {
+      display: flex;
+      flex-direction: column;
+
+
+    }
+    &_name {
+      color: #FFF;
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    &_remain {
+      color: #D8D8D8;
+      font-family: Roboto;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}
