@@ -1,9 +1,22 @@
 .reviews {
-  min-height: 532px;
-  background: url("../../img/bg/Group22.png");
+  min-height: 540px;
+  position: relative;
+  background: url("../../img/bg/Group486.png") center / cover no-repeat;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 226px;
+    height: 380px;
+    background-image: url('../../img/bg/flowers.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
   &__title {
     margin: 0;
-    padding: 40px;
+    padding: 25px;
     color: #FFF;
     text-align: center;
     font-family: Playfair Display;
@@ -12,27 +25,45 @@
     font-weight: 400;
     line-height: normal;
   }
-  &__content {
+  &__wrapper {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 
   }
-  &__wrapper{
+  &__boxes {
     display: flex;
-    gap: 93px;
+    gap: 80px;
   }
-  &__box {
-    width: 260px;
-    background:  linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+  &__box-1 {
+    width: 255px;
+    height: 292px;
     border-radius: 15px;
+    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    box-shadow: 0px 14px 0px -5px #7B54B2,  0px 30px 0px -13px #533978 ;
+  }
+  &__box-2 {
+    width: 255px;
+    height: 292px;
+    border-radius: 15px;
+    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow:  0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
+  }
+  &__box-3 {
+    width: 255px;
+    height: 292px;
+    border-radius: 15px;
+    background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow:  0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
   }
   &__box-content {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 30px 15px;
+      flex-direction: column;
+      padding: 47px 15px;
 
     &_text {
+      margin: 0;
+      width: 228px;
+      height: 120px;
       color: #FFF;
       font-family: Roboto;
       font-size: 24px;
@@ -53,12 +84,10 @@
     display: flex;
     justify-content: space-between;
     width: 160px;
-    padding: 30px 15px;
+    padding: 15px 10px;
     &_info {
       display: flex;
       flex-direction: column;
-
-
     }
     &_name {
       color: #FFF;
