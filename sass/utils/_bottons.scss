@@ -12,4 +12,23 @@
   border: none;
   background: $main-color;
   cursor: pointer;
+  &__storage {
+    margin: 40px 60px;
+    padding: 26px 40px;
+    width: 715px;
+    height: 85px;
+    background:  linear-gradient(91deg, #8E32C6 15.44%, #D600C0 69.67%);
+    box-shadow:  0px 14px 0px -3px #9936ab, 0px 30px 0px -6px #5b2d76;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_text {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 50px;
+      color: #FFF;
+      font-size: 28px;
+    }
+  }
 }

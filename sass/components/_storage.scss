@@ -1,15 +1,58 @@
 .storage {
   min-height: 665px;
   background: url("../img/bg/Section_3.png");
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  &__group {
+  padding-top: 45px;
+  &__img {
     position: relative;
-    transition: transform 0.3s ease;
-    &_photo {
-      object-fit: cover;
+    width: 835px;
+    height: 400px;
+    display: block;
+    text-align: center;
+    &_circle {
+      width: 28px;
+      height: 28px;
+    }
+  }
+  &__img-circle_1 {
+    position: absolute;
+    top: 199px;
+    left: 462px;
+  }
+  &__img-circle_2 {
+    position: absolute;
+    top: 218px;
+    left: 251px;
+  }
+  &__img-circle_3 {
+    position: absolute;
+    top: 99px;
+    left: 381px;
+  }
+  &__img-circle_4 {
+    position: absolute;
+    top: 77px;
+    right: 86px;
+  }
+  &__img-vector {
+    position: absolute;
+    right: 90px;
+    bottom: 54px;
+  }
+  &__img-line {
+    position: absolute;
+    top: -168px;
+    left: 104px;
+    &_text {
+      position: absolute;
+      top: -40px;
+      right: 10px;
+      text-align: end;
+      color: #FFF;
+      font-family: Playfair Display;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
     }
   }
   &__vector {
@@ -17,13 +60,6 @@
     width: 130px;
     height: 130px;
     position: absolute;
-    right: 20%;
-    bottom: 20%;
-    right: 33%;
-    bottom: 32%;
-    z-index: 2;
   }
-  .container {
-    position: relative;
-  }
+
 }
