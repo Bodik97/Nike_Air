@@ -1,6 +1,6 @@
 .order {
   min-height: 510px;
-  background: url("../../img/bg/Section\(5\).png");
+  background: url("../img/bg/Section\(5\).png") center / cover no-repeat;
   position: relative;
   &__form {
     position: absolute;
@@ -22,6 +22,6 @@
         margin-bottom: 20px;
       }
     }
-    
+
   }
 }
