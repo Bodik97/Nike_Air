@@ -220,24 +220,45 @@
       </section>
       <section class="order">
         <div class="container">
-          <h2>Order</h2>
-            <div class="order__form">
-            <form>
+          <h2 class="order__title">Order</h2>
+            <form class="order__form">
               <div class="order__form_confirm ">
-                <input type="email" placeholder="Write your email">
-                <button type="submit">Confirm</button>
+                <input name="email" type="email" placeholder="Write your email">
+                <button type="submit" class="order__form_confirm-button">Confirm</button>
               </div>
                 <input name="Contry" type="text" placeholder="Your Country" />
                 <input name="City" type="text" placeholder="Your City" />
                 <input name="Adress" type="text" placeholder="Your Adress">
-              <div class="button">
-                <button type="submit">Order my Nike</button>
-              </div>
+                <button  class="button button__order ">Order my Nike</button>
             </form>
-          </div>
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="footer__up">
+        <div class="footer__ask">
+          <div class="footer__ask_text">Have a quastion?</div>
+          <div class="footer__ask_text">Have a proposal for cooperaiotn?</div>
+          <div class="footer__ask_text">Advertising questions?</div>
+        </div>
+        <div class="footer__links">
+          <a href="#" class="footer__links_link" >ColoRawe_support@gmail.com</a>
+          <a href="#" class="footer__links_link" >ColoRawe_Cooperation@gmail.com</a>
+          <a href="#" class="footer__links_link" >ColoRawe_Advertising@gmail.com</a>
+        </div>
+      </div>
+      <hr>
+      <div class="footer__down">
+        <div class="footer__reser">
+          <div class="footer__reser_text">2022 ColoRawe @All rights reserved</div>
+          <div class="footer__reser_text">United States</div>
+        </div>
+          <a href="#" class="intro__logo">
+            <img src="icons/section1/icon_nike_big.png" alt="logo_big" />
+            <span>C&R</span>
+          </a>
+      </div>
+    </footer>
     <script src="./js/script.js"></script>
   </body>
 </html>
