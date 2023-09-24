@@ -11,17 +11,25 @@
   border-radius: 10px;
   border: none;
   background: $main-color;
-  cursor: pointer;
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
   &__storage {
     margin: 40px 60px;
     padding: 26px 40px;
     width: 715px;
     height: 85px;
     background:  linear-gradient(91deg, #8E32C6 15.44%, #D600C0 69.67%);
-    box-shadow:  0px 14px 0px -3px #9936ab, 0px 30px 0px -6px #5b2d76;
+    box-shadow:  0px 0px 0px 0px #9936ab, 0px 0px 0px 0px #5b2d76;
+    transition: box-shadow 0.3s ease;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    &:hover{
+      box-shadow:  0px 14px 0px -3px #9936ab, 0px 30px 0px -6px #5b2d76;
+      transform: none;
+    }
     &_text {
       display: flex;
       justify-content: space-between;
@@ -38,3 +46,4 @@
     margin-bottom: 40px;
   }
 }
+
