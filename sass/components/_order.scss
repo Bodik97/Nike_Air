@@ -71,6 +71,11 @@
       border-radius: 30px;
       background: rgba(0, 0, 0, 0,);
       cursor: pointer;
+      transition: background-color 1s ease, color 1s ease;
+      &:hover {
+        background-color: $main-color;
+        color: #fff;
+      }
     }
   }
 }
